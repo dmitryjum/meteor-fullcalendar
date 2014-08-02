@@ -67,6 +67,8 @@ html .fc,
 	margin-bottom: 1em;
 	vertical-align: top;
 	}
+
+	
 	
 /* buttons edges butting together */
 
@@ -345,6 +347,7 @@ a.fc-event,
 
 table.fc-border-separate {
 	border-collapse: separate;
+	border-color: #f0f0f0
 	}
 	
 .fc-border-separate th,
@@ -386,13 +389,14 @@ table.fc-border-separate {
 	}
 	
 .fc-grid .fc-day-number {
-	float: right;
+	float: left;
 	padding: 0 2px;
 	}
 	
 .fc-grid .fc-other-month .fc-day-number {
-	opacity: 0.3;
-	filter: alpha(opacity=30); /* for IE */
+	color: #e1e1e1;
+	/* opacity: 0.3;
+	filter: alpha(opacity=30); for IE */
 	/* opacity with small font can sometimes look too faded
 	   might want to set the 'color' property instead
 	   making day-numbers bold also fixes the problem */
