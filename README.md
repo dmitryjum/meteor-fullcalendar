@@ -8,3 +8,5 @@ This is a the [fullcalendar jquery plugin](http://arshaw.com/fullcalendar/) as a
 2. `mrt add fullcalendar`
 
 Check out the [fullcalendar api](http://arshaw.com/fullcalendar/docs/) for more details.
+
+The calendar was edited by me to fix bugs that prevented calendar to be responsive to window size.
